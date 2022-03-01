@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+gym = "==0.21"
+tensorflow = "==1.14"
+ray = {version = "==0.8.4", extras = ["rllib"]}
+black = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
