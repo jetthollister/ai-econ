@@ -8,6 +8,9 @@ gym = "==0.21"
 tensorflow = "==1.14"
 ray = {version = "==0.8.4", extras = ["rllib"]}
 black = "*"
+gputil = "==1.4.0"
+requests = "*"
+numpy = "*"
 
 [dev-packages]
 
